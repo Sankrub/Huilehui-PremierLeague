@@ -7,6 +7,10 @@
 
 import UIKit
 
+protocol TeamTableViewCellDelegate: AnyObject { // This delegate is handle every auction in TableView below
+    func didTapPlayback(for team: Team)
+}
+
 class TeamTableViewCell: UITableViewCell {
     
     static let cellId = "TeamTableViewCell"
@@ -77,12 +81,27 @@ class TeamTableViewCell: UITableViewCell {
         return label
     }()
     
+    private weak var delegate: TeamTableViewCellDelegate?
+    private var team: Team?
+    
     // MARK: -Lifecycle
     override func layoutSubviews() {
         super.layoutSubviews()
         containerView.layer.cornerRadius = 10
     }
-    func configure(with item: Team){
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        self.team = nil
+        self.delegate = nil
+        self.contentView.subviews.forEach { $0.removeFromSuperview()}
+    }
+    
+    func configure(with item: Team, delegate: TeamTableViewCellDelegate){
+        self.team = item
+        self.delegate = delegate // use self because we use the private one
+        
+        playbackBtn.addTarget(self, action: #selector(didTapPlayback), for: .touchUpInside)
+        
         containerView.backgroundColor = item.id.background
         
         badgeImgView.image = item.id.badge
@@ -128,5 +147,11 @@ class TeamTableViewCell: UITableViewCell {
             
             
         ])
+    }
+    
+    @objc func didTapPlayback(){ //objc is because using selector
+        if let team = team {
+            delegate?.didTapPlayback(for: team)
+        }
     }
 }
