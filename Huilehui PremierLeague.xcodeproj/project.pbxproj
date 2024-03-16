@@ -38,6 +38,7 @@
 		A5D94F3E2BA5B64F00A2D609 /* TeamsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D94F3C2BA5B64F00A2D609 /* TeamsViewModel.swift */; };
 		A5D94F412BA5BC0900A2D609 /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D94F402BA5BC0900A2D609 /* TeamTableViewCell.swift */; };
 		A5D94F432BA60FDF00A2D609 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D94F422BA60FDF00A2D609 /* Assets.swift */; };
+		A5D94F452BA623C200A2D609 /* AudioManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D94F442BA623C200A2D609 /* AudioManagerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		A5D94F3C2BA5B64F00A2D609 /* TeamsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsViewModel.swift; sourceTree = "<group>"; };
 		A5D94F402BA5BC0900A2D609 /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
 		A5D94F422BA60FDF00A2D609 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		A5D94F442BA623C200A2D609 /* AudioManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManagerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				A5D94F3C2BA5B64F00A2D609 /* TeamsViewModel.swift */,
+				A5D94F442BA623C200A2D609 /* AudioManagerViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				A5D94F3B2BA5B5AE00A2D609 /* Manager.swift in Sources */,
 				A5D94F2D2BA59AB500A2D609 /* Teams.swift in Sources */,
 				A5D94F412BA5BC0900A2D609 /* TeamTableViewCell.swift in Sources */,
+				A5D94F452BA623C200A2D609 /* AudioManagerViewModel.swift in Sources */,
 				A5D94EF12BA5907500A2D609 /* AppDelegate.swift in Sources */,
 				A5D94F392BA5B50300A2D609 /* Team.swift in Sources */,
 				A5D94EF32BA5907500A2D609 /* SceneDelegate.swift in Sources */,
