@@ -39,6 +39,7 @@
 		A5D94F412BA5BC0900A2D609 /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D94F402BA5BC0900A2D609 /* TeamTableViewCell.swift */; };
 		A5D94F432BA60FDF00A2D609 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D94F422BA60FDF00A2D609 /* Assets.swift */; };
 		A5D94F452BA623C200A2D609 /* AudioManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D94F442BA623C200A2D609 /* AudioManagerViewModel.swift */; };
+		A5D94F482BA630DC00A2D609 /* AppInterface in Resources */ = {isa = PBXBuildFile; fileRef = A5D94F472BA630DC00A2D609 /* AppInterface */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		A5D94F402BA5BC0900A2D609 /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
 		A5D94F422BA60FDF00A2D609 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		A5D94F442BA623C200A2D609 /* AudioManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManagerViewModel.swift; sourceTree = "<group>"; };
+		A5D94F472BA630DC00A2D609 /* AppInterface */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppInterface; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		A5D94EE42BA5907400A2D609 = {
 			isa = PBXGroup;
 			children = (
+				A5D94F462BA6301300A2D609 /* Huilehui image */,
 				A5D94EEF2BA5907400A2D609 /* Huilehui PremierLeague */,
 				A5D94EEE2BA5907400A2D609 /* Products */,
 			);
@@ -193,6 +196,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		A5D94F462BA6301300A2D609 /* Huilehui image */ = {
+			isa = PBXGroup;
+			children = (
+				A5D94F472BA630DC00A2D609 /* AppInterface */,
+			);
+			path = "Huilehui image";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -258,6 +269,7 @@
 				A5D94F1C2BA59AB500A2D609 /* brighton.mp3 in Resources */,
 				A5D94F252BA59AB500A2D609 /* manchester_united.mp3 in Resources */,
 				A5D94F2C2BA59AB500A2D609 /* wolves.mp3 in Resources */,
+				A5D94F482BA630DC00A2D609 /* AppInterface in Resources */,
 				A5D94F1D2BA59AB500A2D609 /* burnley.mp3 in Resources */,
 				A5D94F212BA59AB500A2D609 /* leeds.mp3 in Resources */,
 				A5D94F1B2BA59AB500A2D609 /* aston_villa.mp3 in Resources */,
