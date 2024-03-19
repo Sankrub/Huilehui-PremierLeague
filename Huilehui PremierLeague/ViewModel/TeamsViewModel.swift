@@ -1,10 +1,3 @@
-//
-//  TeamsViewModel.swift
-//  Huilehui PremierLeague
-//
-//  Created by Navathon Limamapar on 16/3/2567 BE.
-//
-
 import Foundation
 
 class TeamsViewModel {

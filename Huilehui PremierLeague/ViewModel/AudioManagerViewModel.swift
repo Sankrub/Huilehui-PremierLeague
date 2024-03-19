@@ -1,10 +1,3 @@
-//
-//  AudioManagerViewModel.swift
-//  Huilehui PremierLeague
-//
-//  Created by Navathon Limamapar on 17/3/2567 BE.
-//
-
 import Foundation
 import AVKit
 

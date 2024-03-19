@@ -1,11 +1,3 @@
-//
-//  Football Chants
-//  Badges.swift
-//  Huilehui PremierLeague
-//
-//  Created by Navathon Limamapar on 16/3/2567 BE.
-//
-
 import UIKit
 
 enum TeamType {

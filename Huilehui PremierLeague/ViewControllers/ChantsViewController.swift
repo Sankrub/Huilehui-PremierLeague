@@ -1,10 +1,3 @@
-//
-//  ChantsViewController.swift
-//  Huilehui PremierLeague
-//
-//  Created by Navathon Limamapar on 16/3/2567 BE.
-//
-
 import UIKit
 
 class ChantsViewController: UIViewController {

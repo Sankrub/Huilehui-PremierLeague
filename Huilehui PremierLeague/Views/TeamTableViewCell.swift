@@ -1,10 +1,3 @@
-//
-//  TeamTableViewCell.swift
-//  Huilehui PremierLeague
-//
-//  Created by Navathon Limamapar on 16/3/2567 BE.
-//
-
 import UIKit
 
 protocol TeamTableViewCellDelegate: AnyObject { // This delegate is handle every auction in TableView below
